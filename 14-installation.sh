@@ -14,7 +14,6 @@ VALIDATE(){ #functions receive inputs through argus just like script argus
       exit 1
    else
       echo "Installing $2 is SUCCESS"
-      exit 0
 
    fi
 }
