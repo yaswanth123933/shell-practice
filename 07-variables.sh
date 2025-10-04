@@ -4,7 +4,7 @@
 
 START_TIME=$(date +%s)
 
-slepp 10
+sleep10
 
 END_TIME=$(date +%S)
 TOTAL_TIME=$(($END_TIME-$START_TIME))
