@@ -1,8 +1,8 @@
 #!/bin/bash
 
-USERID=$(id-u)
+USERID=$(id -u)
 
-if [ $USERID -ne 0 ];then
+if [ $USERID -ne 0 ]; then
     echo "ERROR:: Please run this script with root privelege"
     exit 1 #failure is other than zero
 fi
