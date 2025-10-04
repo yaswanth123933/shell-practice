@@ -20,10 +20,10 @@ VALIDATE(){ #functions receive inputs through argus just like script argus
 }
 
 dnf install mysql -y
-VALIDATE $? "MySQL
+VALIDATE $? "MySQL"
 
 dnf install nginx -y
 VALIDATE $? "Nginx"
 
-dnf install mongodb-mongosh -y
-VALIDATE $? "mongosh"
+dnf install "python3" -y
+VALIDATE $? "python3"
